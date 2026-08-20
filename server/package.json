@@ -1,0 +1,29 @@
+{
+  "name": "black-jeck",
+  "version": "1.0.0",
+  "description": "\"# black-jeck\"",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --watch app.js",
+    "test": "node --test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meirsilverman2-debug/black-jeck.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/meirsilverman2-debug/black-jeck/issues"
+  },
+  "homepage": "https://github.com/meirsilverman2-debug/black-jeck#readme",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.112.3",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongodb": "^7.5.0"
+  }
+}
