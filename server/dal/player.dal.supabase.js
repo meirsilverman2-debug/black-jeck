@@ -13,3 +13,13 @@ export async function createPlayer(){
 };
 
 
+export async function getPlayer(id){
+    try {
+        const {data, error} = await client.from("player").select("*").eq("id", Number(id)).single();
+        if (error) throw error;
+        return data
+    } catch (error) {
+        console.log(error);
+        throw error;
+    };
+};
